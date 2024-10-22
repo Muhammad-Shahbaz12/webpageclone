@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .manu-bar{
+   top: 0%;
+   text-align: center;
+    color: white;
+  }
+  
+  .manubar{
+  
+    display:flex;
+    place-items: center;
+  padding: 16px 20px;
+  display: inline-block;
+  padding-top: 25px;
+  
+    
+  }
+  .link{
+    width: 315px;
+    height: 25px;
+    display: flex;
+  letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    word-spacing: 5px;
+    padding: 0 7px;
+    border: 1px solid gold;
+    color: black;
+    border-radius: 40px;
+    color: white;
+  background-color: black;
+  }
+  
+  
+  li{
+    padding: 0 10px;
+  
+  }
+  li:hover{
+    background-color: rgb(12, 52, 138);
+    border-radius: 15px;
+  border: 1px solid gold;
+    width: 95px;
+  }
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Errorpage{
+  color:black;
+  text-align: center;
+  }
+  .containerforerror{
+    width: 250px;
+    height: 150px;
+    color: rgba(7, 5, 1, 0.279);
+  text-align: center;
+  display: grid;
+  place-items: center;
+  font-size: 150px;
+  top: 150px;
+  left: 400px;
+  position:absolute;
+  font-weight: 900;
+  font-weight: 45px;
+  }
+  .heading{
+    width: 800px;
+    height: 152px;
+    color: black;
+    background-color: transparent;
+  display: grid;
+  place-items: center;
+  text-align: center;
+ padding-top: 235px;
+margin: 0 auto;
+  }
+  .h1{
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+  p{
+  text-transform: uppercase;
+  font-weight: 1px;
+  font-size: 8px;
+  } 
+
+
+ .homepage{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./public/IMG-20241007-WA0021.jpg);
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0;
+
+ }
+ .paragraph{
+  width: 300px;
+  height: 250px;
+  display: grid;
+  place-items: center;
+  place-content: center;
+  margin: 0 auto;
+  text-align: justify;
+ }
+ form>div{
+  @apply flex flex-col gap-2 ;
+ }
+ input,textarea{
+  @apply shadow-md px-6 py-2 border border-slate-300 gap-5;
+ }
+.button{
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: bold;
+}
+.image{
+  width: 40%;
+  height:55vh;
+  background-image: url(../app/public/IMG-20241007-WA0009.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+ position: absolute;
+ right:5rem;
+ top: 8rem;
+  justify-content: center;
+ 
+}
+.texts{
+  text-transform: lowercase;
+  width: 35%;
+  
+}
+.aboutfont{
+  width: 600px;
+  font-size: 17px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
